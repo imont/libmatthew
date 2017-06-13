@@ -7,7 +7,7 @@
 
 	<groupId>com.github.hypfvieh</groupId>
 	<artifactId>libmatthew</artifactId>
-	<version>0.8.2</version>
+	<version>0.8.2-imont</version>
 
 	<name>${project.artifactId}</name>
 
@@ -15,6 +15,7 @@
 		Some libraries from Matthew Johnson: http://www.matthew.ath.cx/projects/java/
 
 		Modifications:
+		- IMONT: recompiled libunix-java for ARM; the standard one was segfaulting
 		- including precompiled native C libraries (libunix-java) for architectures: arm, amd64 and i386
 		- UnixSocket/UnixServerSocket now implements closable (allows try-with-resources usage)
 		- Cleaned up code style
